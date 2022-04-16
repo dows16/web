@@ -1,6 +1,6 @@
 /* Below I took the Manrope font's URL and imported it so I can use it when I call the "var()" function and type "--font-family" since I set it so "--font-family: Manrope" that way I wouldn't need to type the whole font name everytime I use the font.*/
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-/* ":root {} actually styles the html */
+/* ":root {}" actually styles the html tag */
 :root {
   --font-family: 'Manrope', sans-serif;
 
