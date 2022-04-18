@@ -1,6 +1,7 @@
 import React from 'react';
-import "./footer.css";
-import gpt3Logo from "../../assets/logo.svg";
+import './footer.css';
+//I imported the "logo.svg" picture for this section of the website below.
+import gpt3Logo from '../../assets/logo.svg';
 
 const Footer = () => {
   return (
@@ -46,4 +47,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

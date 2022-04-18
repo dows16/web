@@ -1,6 +1,6 @@
-import React from "react";
-import { google, slack, atlassian, dropbox, shopify } from "./imports";
-import "./brand.css";
+import React from 'react';
+import { google, slack, atlassian, dropbox, shopify } from './imports';
+import './brand.css';
 
 
 const Brand = () => (
@@ -24,4 +24,4 @@ const Brand = () => (
   );
 
 
-export default Brand
+export default Brand;

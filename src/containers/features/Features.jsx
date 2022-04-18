@@ -1,6 +1,7 @@
 import React from 'react';
+//Below I imported the Feature module from the components folder to use for the "Features" section.
 import { Feature } from '../../components';
-import "./features.css";
+import './features.css';
 
 const featuresData = [
   {
@@ -29,6 +30,7 @@ const Features = () => {
         <p>Request Early Access to Get Started</p>
       </div>
       <div className="gpt3__features-container">
+        {/* The .map function loops through every element in the array and I can choose what I do with that, for this I passed the "title", "text", and "key" props which was taken from the "featuresData" array, the key prop needs to be unique so I just used the index to do that since each index iteration count is unique. */}
         {featuresData.map((item, index) => (
           <Feature title={item.title} text={item.text} key={item.title + index}/>
         ))}
@@ -37,4 +39,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default Features;

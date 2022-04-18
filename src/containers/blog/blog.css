@@ -29,9 +29,12 @@
 
 .gpt3__blog-container_groupB {
     flex: 1;
-
-    display:grid;
+    /* Makes it so the content is displayed as a grid. */
+    display: grid;
+    /* The repeat() CSS property allows a large number of columns or rows that show a repeating pattern to be written in a more smaller/simpler form. */
+    /* A grid column is an up-and-down track in a CSS Grid Layout, and is the space between two vertical grid lines, I also learned that "1fr" means a fraction. */
     grid-template-columns: repeat(2, 1fr);
+    /* The grid-gap CSS property sets the gaps between rows and columns. */
     grid-gap: 2rem;
 }
 

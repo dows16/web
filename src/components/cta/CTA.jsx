@@ -1,5 +1,5 @@
 import React from 'react';
-import "./cta.css";
+import './cta.css';
 
 const CTA = () => {
   return (
@@ -15,4 +15,4 @@ const CTA = () => {
   )
 }
 
-export default CTA
+export default CTA;

@@ -1,6 +1,7 @@
 import React from 'react';
+//Below I imported the Feature module from the components folder to use for the "WhatGPT3" section.
 import { Feature } from '../../components';
-import "./whatGPT3.css";
+import './whatGPT3.css';
 
 const WhatGPT3 = () => {
   return (
@@ -20,4 +21,4 @@ const WhatGPT3 = () => {
     </div>
   )
 }
-export default WhatGPT3
+export default WhatGPT3;

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./feature.css";
+import './feature.css';
 
 const Feature = ({ title, text }) => {
   return (
@@ -15,4 +15,4 @@ const Feature = ({ title, text }) => {
   )
 }
 
-export default Feature
+export default Feature;

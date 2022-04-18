@@ -1,5 +1,5 @@
 import React from 'react';
-import "./article.css";
+import './article.css';
 
 //We get the "imgUrl" image and we can pass it through props to change the image for each and every article.
 const Article = ({ imgUrl, date, title }) => {
@@ -19,4 +19,4 @@ const Article = ({ imgUrl, date, title }) => {
   )
 }
 
-export default Article
+export default Article;
